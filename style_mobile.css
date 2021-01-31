@@ -1,0 +1,109 @@
+@media screen and (max-width: 420px) {
+  
+    body{
+        background-color: blue;
+        /* border: 5px solid white; */
+        width: 100%;
+        /* background-image: url("img/sfondo_1.jpeg");
+        background-repeat: repeat-y;
+        background-position: top;
+        background-attachment: fixed; */
+    }
+    .row{
+        width: 95%;
+        margin: auto;
+    }
+    h1{
+        margin: 20px 0;
+    }
+    /* BLOCCO LEZIONI */
+    #lezioni .row>.left,
+    #lezioni .row>.right {
+    width: 80%;
+    float: none;
+    margin: auto;
+    padding:20px;
+        /* border: 3px solid lightblue; */
+
+    }
+    #lezioni .row img {
+    /* per centrare orizzontalmente */
+    display: block; 
+    }
+    #lezioni {
+        margin: auto;
+        text-align: center;
+        width: 95%;
+    }
+    /* BLOCCO STEPS */
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+    width: 40%;
+    float: none;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin: auto;
+    padding:10px;
+    }
+    #steps .row>.right{
+        width: 50%;
+    }
+    #steps {
+    text-align: center;
+    }
+
+    /* BLOCCO PERCHE */
+    #why {
+    text-align: center;
+    }
+
+    #why .row>.first,
+    #why .row>.second,
+    #why .row>.third {
+    width: 100%;
+    margin-top: 20px;
+    }
+
+    #why .row img {
+    background-color: #428bca;
+    border-radius: 50%;
+    width: 30%;
+    }
+
+    /* COMMON */
+    .row::after {
+    content: '';
+    display: table;
+    clear: both;
+    }
+
+    .container.grey {
+        background-color:inherit;
+    }
+
+    img {
+        width: 60%;
+        height: auto;
+    }
+    
+
+    .clear {
+    clear: both;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }
+  
