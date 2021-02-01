@@ -1,5 +1,7 @@
 @media screen and (max-width: 1100px) {
-  
+  *{
+      box-sizing: border-box;
+  }
     body{
         background-color: pink;
         /* border: 5px solid white; */
@@ -19,24 +21,52 @@
     /* BLOCCO LEZIONI */
     #lezioni .row>.left,
     #lezioni .row>.right {
-        width: 45%;
+        width: 50%;
         float: left;
+        padding: 20px;
           border: 3px solid blue;
       
         /* border: 3px solid lightblue; */
 
     }
-    #lezioni .row img {
-    /* per centrare orizzontalmente */
-    display: block; 
-    height: 50%;
-    width: auto;
+    #lezioni .row>.right {
+        float: right;
+          border: 3px solid blue;
+      
+        /* border: 3px solid lightblue; */
+
     }
+            #lezioni  .row .left img {
+        width: auto;
+        height: 150px;
+        padding: 0 10px;
+        background-color: indigo;
+        }
+    #lezioni .row .right img {
+        width: auto;
+        height: 150px;
+        padding: 20px 0px;
+        background-color: red;
+        }
+
+    /* #lezioni .row .right img {
+
+        width: 80%;
+        height: auto;
+        background-color: red;
+        } */
+
     #lezioni {
         margin: auto;
         text-align: center;
         width: 95%;
     }
+    #lezioni::after{
+        clear: both;
+        display: table;
+        content: "";
+    }
+
     /* BLOCCO STEPS */
     #steps .row>.left,
     #steps .row>.central,
@@ -45,13 +75,9 @@
     float: none;
     display: inline-block;
     vertical-align: top;
-    text-align: center;
-    margin: auto;
     padding:10px;
     }
-    #steps .row>.right{
-        width: 50%;
-    }
+
     #steps {
     text-align: center;
     }
@@ -64,22 +90,41 @@
     #why .row>.first,
     #why .row>.second,
     #why .row>.third {
-    width: 100%;
-    margin-top: 20px;
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-top: 0px;
+    padding: 10px 15px;
     }
 
-    #why .row img {
+    #why .row .first img,
+    #why .row .third img,
+    #why .row .second img {
     background-color: #428bca;
     border-radius: 50%;
-    width: 30%;
+    width: 210px;
+    
     }
+    #why .row .first img,
+    #why .row .third img {
+    float: left;
+    margin: 0  5% 20px 0;
 
-    /* COMMON */
-    .row::after {
-    content: '';
-    display: table;
-    clear: both;
     }
+    #why .row .second img {
+        margin: 0  0px 20px 5%;
+    float: right;
+
+    }
+    #why .row .first::after,
+    #why .row .second::after,
+    #why .row .third::after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+    /* COMMON */
+
     .container.grey {
         background-color:inherit;
     }

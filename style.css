@@ -3,8 +3,6 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
-    border: 3px solid  red;
-
 }
 
 /* BLOCCO LEZIONI */
@@ -12,8 +10,6 @@
 #lezioni .row>.right {
   width: 50%;
   float: left;
-    border: 3px solid blue;
-
 }
 
 #lezioni .row img {
@@ -25,8 +21,6 @@
 
 #lezioni {
   text-align: center;
-    border: 3px solid greenyellow;
-
 }
 
 /* BLOCCO STEPS */
@@ -76,20 +70,4 @@ img {
 
 .clear {
   clear: both;
-}
-
-/* ! NON modificare sopra */
-/* ! NON modificare sopra */
-/* ! NON modificare sopra */
-/* ! NON modificare sopra */
-/* ! NON modificare sopra */
-/* ! NON modificare sopra */
-/* ! NON modificare sopra */
-/* ! NON modificare sopra */
-/* ! NON modificare sopra */
-/* ! NON modificare sopra */
-
-/* * Debugging */
-div {
-  border: 1px solid  black;
 }
