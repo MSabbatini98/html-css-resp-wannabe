@@ -4,10 +4,7 @@
         background-color: blue;
         /* border: 5px solid white; */
         width: 100%;
-        /* background-image: url("img/sfondo_1.jpeg");
-        background-repeat: repeat-y;
-        background-position: top;
-        background-attachment: fixed; */
+        background-image: none;
     }
     .row{
         width: 95%;
