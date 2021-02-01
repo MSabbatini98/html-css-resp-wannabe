@@ -19,27 +19,22 @@
     /* BLOCCO LEZIONI */
     #lezioni .row>.left,
     #lezioni .row>.right {
-    width: 80%;
-    float: none;
-    margin: auto;
-    padding:10px 20px;
-        /* border: 3px solid lightblue; */
-
+        width: 80%;
+        float: none;
+        margin: auto;
+        padding:10px 20px;
+            /* border: 3px solid lightblue; */
     }
     #lezioni  .row .left img {
-        /* per centrare orizzontalmente */
-        width: 60%;
-        height: auto;
+    width: 60%;
+    height: auto;
         background-color: indigo;
-        }
+    }
     #lezioni .row .right img {
-        /* per centrare orizzontalmente */
         width: 80%;
         height: auto;
-        background-color: red;
-        }
-
-
+            background-color: red;
+    }
     #lezioni {
         margin: auto;
         text-align: center;
@@ -50,52 +45,51 @@
     #steps .row>.left,
     #steps .row>.central,
     #steps .row>.right {
-    width: 40%;
-    float: none;
-    display: inline-block;
-    vertical-align: top;
-    text-align: center;
-    margin: auto;
-    padding:10px;
+        width: 40%;
+        float: none;
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        margin: auto;
+        padding:10px;
     }
     #steps .row>.right{
         width: 50%;
     }
     #steps {
-    text-align: center;
+        text-align: center;
     }
 
     /* BLOCCO PERCHE */
     #why {
-    text-align: center;
+        text-align: center;
     }
-hr{
-    margin: 20px 10px 0 10px;
-}
+    hr{
+        margin: 20px 10px 0 10px;
+    }
     #why .row>.first,
     #why .row>.second,
     #why .row>.third {
         float: none;
-    width: 100%;
-    padding: 20px;
-    margin-top: 0;
-    box-sizing: border-box;
+        width: 100%;
+        padding: 20px;
+        margin-top: 0;
+        box-sizing: border-box;
     }
     #why .row .first img,
     #why .row .third img,
     #why .row .second img {
-    float: none;
-    width: 50%;
-    margin: auto;
+        float: none;
+        width: 50%;
+        margin: auto;
     }
     #why .row img {
-    background-color: #428bca;
-    border-radius: 50%;
-    width: 150px;
+        background-color: #428bca;
+        border-radius: 50%;
+        width: 150px;
     }
 
     /* COMMON */
-
     .container.grey {
         background-color:inherit;
     }
@@ -104,7 +98,6 @@ hr{
         height: auto;
     }
     .clear {
-    clear: both;
+        clear: both;
     }
 }
-  

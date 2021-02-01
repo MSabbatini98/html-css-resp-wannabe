@@ -1,7 +1,7 @@
 @media screen and (max-width: 1100px) {
-  *{
-      box-sizing: border-box;
-  }
+    *{
+        box-sizing: border-box;
+    }
     body{
         background-color: pink;
         /* border: 5px solid white; */
@@ -24,38 +24,24 @@
         width: 50%;
         float: left;
         padding: 20px;
-          border: 3px solid blue;
-      
-        /* border: 3px solid lightblue; */
-
+            border: 3px solid blue;
     }
     #lezioni .row>.right {
         float: right;
-          border: 3px solid blue;
-      
-        /* border: 3px solid lightblue; */
-
+            border: 3px solid blue;
     }
-            #lezioni  .row .left img {
+    #lezioni  .row .left img {
         width: auto;
         height: 150px;
         padding: 0 10px;
-        background-color: indigo;
-        }
+            background-color: indigo;
+    }
     #lezioni .row .right img {
         width: auto;
         height: 150px;
         padding: 20px 0px;
-        background-color: red;
-        }
-
-    /* #lezioni .row .right img {
-
-        width: 80%;
-        height: auto;
-        background-color: red;
-        } */
-
+            background-color: red;
+    }
     #lezioni {
         margin: auto;
         text-align: center;
@@ -71,50 +57,48 @@
     #steps .row>.left,
     #steps .row>.central,
     #steps .row>.right {
-    width: 40%;
-    float: none;
-    display: inline-block;
-    vertical-align: top;
-    padding:10px;
+        width: 40%;
+        float: none;
+        display: inline-block;
+        vertical-align: top;
+        padding:20px;
     }
 
     #steps {
-    text-align: center;
+        text-align: center;
     }
 
     /* BLOCCO PERCHE */
     #why {
-    text-align: center;
+        text-align: center;
     }
 
     #why .row>.first,
     #why .row>.second,
     #why .row>.third {
-    display: block;
-    width: 80%;
-    margin: auto;
-    margin-top: 0px;
-    padding: 10px 15px;
+        display: block;
+        width: 80%;
+        margin: auto;
+        margin-top: 0px;
+        padding: 10px 15px;
     }
 
     #why .row .first img,
     #why .row .third img,
     #why .row .second img {
-    background-color: #428bca;
-    border-radius: 50%;
-    width: 210px;
-    
+        background-color: #428bca;
+        border-radius: 50%;
+        width: 210px;
+
     }
     #why .row .first img,
     #why .row .third img {
-    float: left;
-    margin: 0  5% 20px 0;
-
+        float: left;
+        margin: 0  5% 20px 0;
     }
     #why .row .second img {
         margin: 0  0px 20px 5%;
-    float: right;
-
+        float: right;
     }
     #why .row .first::after,
     #why .row .second::after,
@@ -123,8 +107,8 @@
         display: table;
         clear: both;
     }
-    /* COMMON */
 
+    /* COMMON */
     .container.grey {
         background-color:inherit;
     }
@@ -133,7 +117,6 @@
         height: auto;
     }
     .clear {
-    clear: both;
+        clear: both;
     }
 }
-  
