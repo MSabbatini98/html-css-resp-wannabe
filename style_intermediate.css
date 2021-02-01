@@ -6,6 +6,7 @@
     body{
         width: 100%;
         background-image: url("img/sfondo_1.jpeg");
+        /* credits dell'immagine: by Mich  */
         background-repeat: no-repeat;
         background-position: top;
         background-attachment: fixed;
@@ -17,7 +18,7 @@
     h1{
         margin: 20px 0 30px 0;
         font-size: 300%;
-        background-color: white;
+        background-color: rgba(255, 255, 255, 0.6);
         border: 1px solid darkslategray;
         padding: 10px;
         box-shadow: 5px 10px darkslategray;
@@ -33,7 +34,7 @@
     }
     #lezioni .row>.left,
     #lezioni .row>.right {
-        background-color: white;
+        background-color: rgba(255, 255, 255, 0.6);
         border: 1px solid darkslategray;
         box-shadow: 5px 10px darkslategray;
         padding: 10px;
@@ -79,7 +80,7 @@
         vertical-align: top;
         padding:15px;
         margin: 20px;
-        background-color: white;
+        background-color: rgba(255, 255, 255, 0.6);
         border: 1px solid darkslategray;
         box-shadow: 5px 10px darkslategray;
     }
@@ -104,7 +105,7 @@
         margin-top: 20px;
         margin-bottom: 20px;
         padding: 10px 15px;
-        background-color: white;
+        background-color: rgba(255, 255, 255, 0.6);
         border: 1px solid darkslategray;
         box-shadow: 5px 10px darkslategray;
     }
