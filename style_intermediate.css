@@ -1,7 +1,7 @@
-@media screen and (max-width: 500px) {
-
+@media screen and (max-width: 1100px) {
+  
     body{
-        background-color: blue;
+        background-color: pink;
         /* border: 5px solid white; */
         width: 100%;
         /* background-image: url("img/sfondo_1.jpeg");
@@ -19,27 +19,19 @@
     /* BLOCCO LEZIONI */
     #lezioni .row>.left,
     #lezioni .row>.right {
-    width: 80%;
-    float: none;
-    margin: auto;
-    padding:10px 20px;
+        width: 45%;
+        float: left;
+          border: 3px solid blue;
+      
         /* border: 3px solid lightblue; */
 
     }
-    #lezioni  .row .left img {
-        /* per centrare orizzontalmente */
-        width: 60%;
-        height: auto;
-        background-color: indigo;
-        }
-    #lezioni .row .right img {
-        /* per centrare orizzontalmente */
-        width: 80%;
-        height: auto;
-        background-color: red;
-        }
-
-
+    #lezioni .row img {
+    /* per centrare orizzontalmente */
+    display: block; 
+    height: 50%;
+    width: auto;
+    }
     #lezioni {
         margin: auto;
         text-align: center;
@@ -68,16 +60,12 @@
     #why {
     text-align: center;
     }
-hr{
-    margin: 20px 10px 0 10px;
-}
+
     #why .row>.first,
     #why .row>.second,
     #why .row>.third {
     width: 100%;
-    padding: 20px;
-    margin-top: 0;
-    box-sizing: border-box;
+    margin-top: 20px;
     }
 
     #why .row img {
@@ -87,7 +75,11 @@ hr{
     }
 
     /* COMMON */
-
+    .row::after {
+    content: '';
+    display: table;
+    clear: both;
+    }
     .container.grey {
         background-color:inherit;
     }
